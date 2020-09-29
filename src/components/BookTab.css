@@ -1,0 +1,38 @@
+.bookTab{
+    margin-right: auto;
+    margin-left : auto;
+    max-width: 1000px;
+    padding: 30px;
+}
+
+.bookTab_currentButton {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+    width:90%;
+    height: 30px;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    padding:3px 0px;
+    color: white;
+    background-color: black;
+    border:1px solid;
+}
+
+.bookTab_historyButton {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+    width:90%;
+    height: 30px;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    padding:3px 0px;
+    color: black;
+    background-color: white;
+    border:1px solid;
+}

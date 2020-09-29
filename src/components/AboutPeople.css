@@ -1,0 +1,45 @@
+.aboutPeople {
+    margin-top: 60px;
+}
+
+.aboutPeople > h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: "Playfair Display", serif;
+    
+}
+@media only screen and (max-width:600px){
+    .aboutPeople>h1 {
+        margin-bottom: 10px;
+    }
+}
+.aboutPeople_content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+@media only screen and (max-width:600px){
+    .aboutPeople_content{
+        margin-top: 50px;
+    }
+    .aboutPeople_content>p{
+        padding-left:25px;
+        padding-right: 25px;
+    }
+}
+
+.aboutPeople_content > h4 {
+    margin-top: 50px;
+    font-family: "Playfair Display", serif;
+}
+.aboutPeople_content > h3 {
+    margin-top: 0px;
+    font-family: "Playfair Display", serif;
+}
+
+.aboutPeople_content > p {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}

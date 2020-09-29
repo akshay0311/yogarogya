@@ -1,0 +1,21 @@
+.header_links {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid lightgray;
+    background-color: white;
+}
+.header_linksContent{
+    margin-right: 20px;
+    color: black;
+    font-size: 17px;
+}
+
+.header_logo {
+    width:18%;
+    height: auto;
+}
+.menu_Icon {
+	margin-left:100%;
+}
+

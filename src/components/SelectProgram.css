@@ -1,0 +1,30 @@
+.optionsHeader {
+    text-align: center;
+    font-weight: 400;
+	font-family: "Playfair Display", serif;
+}
+
+.program_container {
+    background: -o-linear-gradient(305deg, #f65d5d 0%, #fdb07d 100%);
+    background : linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f65d5d', endColorstr='#fdb07d', GradientType=1);
+    width: 100%;
+    height: 1800px;
+}
+
+.wrapper {
+    width:34%;
+    background-color: white;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:95px;
+    padding:10px;
+    border:1px solid white;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:700px){
+    .wrapper {
+        width:100%;
+    }
+}

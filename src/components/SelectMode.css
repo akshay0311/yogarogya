@@ -1,0 +1,140 @@
+.optionsHeader {
+    text-align: center;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 45px;
+}
+
+.container1 {
+    position: relative;
+    background: -o-linear-gradient(305deg, #f65d5d 0%, #fdb07d 100%);
+    background : linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f65d5d', endColorstr='#fdb07d', GradientType=1);
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.container2 {
+    background: -o-linear-gradient(305deg, #f65d5d 0%, #fdb07d 100%);
+    background : linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f65d5d', endColorstr='#fdb07d', GradientType=1);
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0px;
+    left:30%;
+    background-color: white;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:40px;
+    padding:10px;
+    padding-bottom: 40px;
+    border:1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.wrapper1 {
+    height: 520px;
+}
+@media only screen and (max-width:700px){
+    .wrapper {
+        position: absolute;
+        width: 100%;
+        right:0px;
+        left:0px;
+    }
+}
+
+.time_tile {
+    height:100px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.prevButton {
+    background: -o-linear-gradient(305deg, #f65d5d 0%, #fdb07d 100%);
+    background : linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f65d5d', endColorstr='#fdb07d', GradientType=1);
+    color: white;
+    border : 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+.nextButton {
+    background: -o-linear-gradient(305deg, #f65d5d 0%, #fdb07d 100%);
+    background : linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f65d5d', endColorstr='#fdb07d', GradientType=1);
+    float: right;
+    color : white;
+    margin-right: 20px;
+    border : 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding:5px;
+    width: 80px;
+}
+
+.trial_image {
+    width:80%;
+    height: 600px;
+    margin-left:80px;
+}
+
+@media only screen and (max-width){
+    .trial_image{
+        width: 100%;
+    }
+}
+
+.input-hidden {
+    position: absolute;
+    left: -9999px;
+  }
+
+
+  input[type=radio]:checked + label>div {
+    border: 3px solid #fff;
+    box-shadow: 0 0 5px 5px  #f65d5d;
+  }
+  
+  /* Stuff after this is only to make things more pretty */
+  input[type=radio] + label>div {
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 100px;
+    width: 95px;
+    box-shadow: 0.5px 0.5px;
+    transition: 500ms all;
+  }
+  @media only screen and (max-width:700px){
+    input[type=radio] + label>div {
+        width: 78px;   
+    }
+  }
+    
+  input[type=radio]:checked + label>img {
+    border: 3px solid #fff;
+    box-shadow: 0 0 5px 5px  #f65d5d;
+  }
+  
+  /* Stuff after this is only to make things more pretty */
+  input[type=radio] + label>img {
+    border: 1px solid grey;
+    width: 150px;
+    height: 150px;
+    transition: 500ms all;
+  }
+  
+  html {
+    background-color: #fff;
+    background-size: 100% 1.2em;
+    background-image: white
+  }
+  

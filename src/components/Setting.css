@@ -1,0 +1,33 @@
+.setting_gridContainer {
+    padding:20px;
+}
+.setting_gridItem {
+    padding:20px;
+    width:100%;
+}
+
+.setting_paper {
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -15px;
+}
+
+.setting_image {
+    width : 120px;
+    height : 120px;
+    border: 1px solid;
+    border-radius: 100px;
+}
+
+.setting_input {
+    width: 600px;
+    padding-bottom:8px;
+    align-items:center;
+    margin-bottom: 10px;
+    border:1px solid;
+    border-radius: 7px;
+}

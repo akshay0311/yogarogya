@@ -1,0 +1,72 @@
+.section-title > p {
+	font-size: 20px;
+}
+.classes-item {
+	text-align: center;
+	background: #fff;
+	padding-top: 40px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	border-radius: 13px;
+	-webkit-box-shadow: 0px 5px 6px rgba(13, 13, 14, 0.15);
+	box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	height: 520px;
+}
+@media only screen and (max-width: 1000px){
+	.classes-item {
+		margin-right:20px;
+		margin-left: 20px; 
+	}
+}
+@media only screen and (max-width: 400px){
+	.classes-item{
+		height: 400px;
+	}
+}
+
+.classes-item:hover {
+	-webkit-box-shadow: 0px 12px 32px rgba(42, 42, 43, 0.295);
+	box-shadow: 0px 12px 32px rgba(41, 40, 40, 0.397);
+}
+
+.classes-item .ci-img img {
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	margin: 0 auto 25px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px),
+only screen and (min-width: 768px) and (max-width: 991px) {
+	.classes-item .ci-img img {
+		width: 220px;
+		height: 220px;
+	}
+}
+
+@media (max-width: 420px) {
+	.classes-item .ci-img img {
+		width: 150px;
+		height: 150px;
+	}
+}
+
+.classes-item .ci-text {
+	padding: 0 15px 10px;
+}
+
+.classes-item h4 {
+	font-family: "Playfair Display", serif;
+	font-weight: 400;
+	margin-bottom: 15px;
+	font-size:25px;
+}
+.classes-item p {
+	font-size: 17px;
+	word-spacing: 0.2em;
+	color: grey;
+}
+

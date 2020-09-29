@@ -1,0 +1,80 @@
+.spad {
+	padding-top: 110px;
+	padding-bottom: 105px;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 55px;
+}
+.about-item {
+	margin-bottom: 30px;
+}
+
+.about-item .ai-icon {
+	float: left;
+	width: 112px;
+	height: 112px;
+	border: 1px solid #f1f4f4;
+	margin-right: 20px;
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-ms-flex-pack: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+@media (max-width: 576px) {
+	.about-item .ai-icon {
+		float: none;
+		margin-bottom: 20px;
+	}
+}
+
+.about-item .ai-text {
+	overflow: hidden;
+	padding-top: 10px;
+}
+
+.about-item .ai-text h4 {
+	font-weight: 400;
+	font-family: "Playfair Display", serif;
+	margin-bottom: 15px;
+	font-size: 30px;
+}
+
+.about-item .ai-text p {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.about-item.icon-box {
+	text-align: center;
+}
+
+.about-item.icon-box .ai-icon {
+	float: none;
+	margin: 0 auto 15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	.about-img {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+}
+
+.about-img>img {
+	height : auto;
+	width:100%
+}
